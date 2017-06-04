@@ -1,8 +1,8 @@
-FROM willsonic/ws-node-alpine:v0.0.1
+FROM willsonic/ws-node-alpine:v1.0.0
 
 MAINTAINER Will Streeter <will.streeter@gmail.com>
 
-#Install tools necessary for developing Angular 2 based apps
+#Install tools necessary for developing modern Angular X  based apps with TypeScript
 
 ENV PATH $PATH:/usr/lib/node_modules/bin
 
