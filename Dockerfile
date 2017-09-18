@@ -10,7 +10,6 @@ RUN npm install --prefix /usr/lib/node_modules/ --global typescript    && \
     npm isntall --prefix /usr/lib/node_modules/ --global tslint  && \
     npm isntall --prefix /usr/lib/node_modules/ --global typings  && \
     npm install --prefix /usr/lib/node_modules/ --global yarn    && \
-    npm install --prefix /usr/lib/node_modules/ --global gulp    && \
     apk del curl tar && \
     mkdir -p /app
 
